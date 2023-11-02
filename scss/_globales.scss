@@ -1,0 +1,39 @@
+.footer {
+    background-color: #D7DBDD;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+
+}
+
+.footer img {
+    width: 150px;
+    height: 70px;
+}
+
+.NavBar ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    font-size: 1.7rem;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.UlNav a {
+    text-decoration: none;
+    box-shadow: none;
+    color: black;
+    margin: 1.5rem
+}
+.sponsorfot {
+    display: flex;
+    justify-content: center;
+}
+
+#h1tittle {
+    text-align: center;
+}

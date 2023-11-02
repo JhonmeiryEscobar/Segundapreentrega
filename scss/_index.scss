@@ -1,0 +1,63 @@
+#header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.Carrusel img { 
+    border-color: blue;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 900px;
+    padding: 45px;
+    
+    
+}
+.Inicio {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.h3 {
+    text-align: center;
+}
+
+.VIDEOS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    
+    
+}
+.ProductosIndex {
+    border-width: 50px;
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.ProductosIndex img {
+    max-width: 550px;
+    max-height: 150px;
+}
+.h3ip {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.finalindex {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-color: #7fffd4;
+}
+
+.sponsorfot {
+    display: flex;
+    text-align: center;
+}
