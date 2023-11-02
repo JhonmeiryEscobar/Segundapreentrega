@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #header {
   display: flex;
   justify-content: center;
@@ -207,3 +208,115 @@ h2 {
 }
 
 /*# sourceMappingURL=styles.css.map */
+=======
+/* GLOBALES */
+
+#header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.NavBar ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    font-size: 1.7rem;
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.UlNav a {
+    text-decoration: none;
+    box-shadow: none;
+    color: black;
+    margin: 1.5rem
+}
+
+.Carrusel img { 
+    border-color: blue;
+    border-radius: 10px;
+    justify-content: space-between;
+    height: 900px;
+    padding: 45px;
+    
+    
+}
+.Inicio {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.h3 {
+    text-align: center;
+}
+
+.VIDEOS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    
+    
+}
+
+.footer {
+    background-color: #D7DBDD;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+
+}
+
+.footer img {
+    width: 150px;
+    height: 70px;
+}
+
+.maps {
+    justify-content: center;
+    margin-left: 13rem;
+
+}
+.ProductosIndex {
+    border-width: 50px;
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.ProductosIndex img {
+    max-width: 550px;
+    max-height: 150px;
+}
+.h3ip {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.finalindex {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-color: #7fffd4;
+}
+.sponsorfot {
+    display: flex;
+    justify-content: center;
+}
+.productcarru {
+    display: flex;
+    justify-content: center
+}
+.producth1 {
+    display: flex;
+    justify-content: center;
+
+}
+>>>>>>> b1bc3256720769bc97291f4e7fcd80c3b6552f0a
