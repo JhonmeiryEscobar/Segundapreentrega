@@ -1,16 +1,15 @@
 .footer {
-    background-color: #D7DBDD;
+    background-color: aquamarine;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 1.5rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
 
 }
-
-.footer img {
-    width: 150px;
-    height: 70px;
+.footer p {
+    margin-top: 1rem;
 }
 
 .NavBar ul {
@@ -34,6 +33,3 @@
     justify-content: center;
 }
 
-#h1tittle {
-    text-align: center;
-}

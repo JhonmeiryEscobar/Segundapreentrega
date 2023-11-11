@@ -1,0 +1,43 @@
+.textg {
+    color: black;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.h1g {
+    @extend .textg;
+}
+.h1c {
+    @extend .textg;
+}
+.h1p {
+    @extend .textg;
+}
+.h1u {
+    @extend .textg;
+}
+@mixin h3 {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    color: black;
+
+}
+.h3i {
+    @include h3;
+    font-family: 'raleway', sans-serif;
+    font-size: 1.7rem
+}
+.h3 {
+    @include h3;
+}
+.h3g {
+    @include h3;
+}
+.icon-link {
+    color: black;
+}
